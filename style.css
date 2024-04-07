@@ -1,0 +1,97 @@
+/*Colors and fonts */
+
+body {
+  background-color: #D8EBFD ;
+  color: #213CFF;
+  font-family: Courier;
+  text-align: center
+}
+
+h1 {
+  color: #FFBDFF;
+  font-size: 50px;
+  font-family: Courier
+}
+
+h2 {
+  color: #FFBDFF;
+  font-size: 450;
+  font-family:'roboto', sans-serif;
+}
+a { text-decoration ; none ;
+  color: blueviolet;
+ }
+a:hover {
+  color:#FFBDFF ; 
+}
+h4 {
+  color: #213CFF ;
+  font-weight: 400 ;
+  font-weight: bold;
+}
+
+h3 {
+  color: #213CFF ;
+  font-weight: 400 ;
+  font-weight: bold;
+  font-family: Courier
+}
+
+#images/photoL { id="images/photoL"
+  width: 40px;
+}
+
+
+div {
+  padding: 60px;
+  margin: 20px auto;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+ 
+
+/*Custom design with class */
+
+.container {
+  width: 700px;
+  margin: 20px auto;
+  text-align: center
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+.card-white {
+  background-color:#D8EBFD;
+  padding: 60px;
+  margin: 20px auto;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  margin: 20px auto ;
+  text-align: center;
+}
+
+.img-circle {
+border-radius: 50%
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230,230,230);
+}
